@@ -17,7 +17,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [github.com/banece/3-column-preview-card-component](https://github.com/banece/3-column-preview-card-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
