@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-/*
-font-family: 'Big Shoulders Display', cursive;
-*/
 :root {
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
@@ -24,4 +21,97 @@ html {
 
 body {
     background-color: var(--light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 325px;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 10px 10px 0 0;
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--darker-cyan);
+    border-radius: 0 0 10px 10px;
+}
+
+img {
+    margin: 3rem 0 0 3rem;
+    color: var(--trans-white);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: var(--light-gray);
+    margin: 1rem 0 0 3rem;
+    font-size: 3rem;
+}
+
+p {
+    color: var(--trans-white);
+    margin: 1rem 3rem 0 3rem;
+    line-height: 150%;
+}
+
+button {
+    margin: 2rem 0 4rem 3rem;
+    padding: 1rem 2rem;
+    background-color: var(--light-gray);
+    border: 3px solid transparent;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans > button {
+    color: var(--bright-orange);
+}
+
+.suvs > button {
+    color: var(--dark-cyan);
+}
+
+.luxury > button {
+    color: var(--darker-cyan)
+}
+
+@media screen and (min-width: 768px) {
+    div {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        max-width: 800px;
+    }
+
+    .sedans {
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .luxury {
+        border-radius: 0 10px 10px 0;
+    }
+
+    button {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    button:hover {
+        border: 3px solid var(--light-gray);
+        background-color: transparent;
+        color: var(--light-gray)
+    }
 }
