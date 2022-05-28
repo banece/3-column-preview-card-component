@@ -18,7 +18,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [github.com/banece/3-column-preview-card-component](https://github.com/banece/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [banece.github.io/3-column-preview-card-component](https://banece.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -27,18 +27,22 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
+- Mobile first
 
 ### What I learned
 
-
+Used grid to move containers from next to each other to on top of each other. Centered the grid using flex in the middle of the page.
+Implemented button hover state with the exception on mobile display.
 
 ### Continued development
 
-
+Doing other challenges to better understand layouts.
 
 ### Useful resources
 
 - [MDN Web Docs by Mozzila](https://developer.mozilla.org/en-US/) 
+- [Stack Overflow](https://stackoverflow.com/)
 
 ## Author
 
